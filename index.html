@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+       <link rel="stylesheet" href="style.css">
+       <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body>
+    <form action="" id="formbooks">
+    <div id="bookself">
+    <h1 style="color: white;">Library Management system</h1>
+    <div class="container">
+        <label for="bookName">Book Name</label>
+        <input type="text"  id="book-name"><br><br>
+        <label for="issued-to" >Issued To</label>
+        <input type="text" id="issued-to">
+        <br><br><br>
+        <button type="submit" id="submit">Issue Book</button>
+    </div>
+</form>
+    <div id="table">
+    <table id="booktable">
+       <thead>
+        <tr>
+            <th>ID</th>
+            <th>Book Name</th>
+            <th>Issued To</th>
+            <th> Issue Date and Time</th>
+            <th> Status</th>
+        </tr>
+       </thead>
+       <tbody>
+
+       </tbody>
+          </table>
+</div>
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>

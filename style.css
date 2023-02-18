@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+body{
+  /* color: white; */
+  background-color: black; 
+}
+h1{
+    margin-top: 20px;
+    padding: 20px;
+    font-weight: 400;
+    font-family: 'Inter';
+}
+#bookself{
+    margin: 5px;
+    padding-left: 30px;
+}
+.container{
+    padding: 10px;
+    margin-left: 10px;
+}
+div input{
+ width: 300px;
+ height: 40px;
+ margin-left: 20px;
+ background-color: black;
+ outline: 2px gray;
+ /* display: flex;
+ flex-direction: row;
+ align-items: center; */
+}
+#issuebook{
+    margin-left: 50px;
+    padding-left: 50px;
+}
+#submit{
+    width: 400px;
+    height: 40px;
+}
+#table{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400px;
+font-size: 16px;
+line-height: 29px;
+width:1000px;
+height: 300px;
+border: 1px solid gray;
+margin-top: 40px;
+margin-left: 20px;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+      text-align:center;
+      gap: 5;
+}
+table, th, td{
+    border: 1px solid gray;
+}
+button{
+    color: black;
+}
+
